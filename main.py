@@ -97,6 +97,6 @@ if __name__ == "__main__":
                     impacted_workflows.append(workflow)
 
         except UnknownObjectException:
-            print(f"{repo.name} has no workflows.")
+            print(f"{repo.name} has no workflows folder.")
 
     export_workflows(impacted_workflows)
